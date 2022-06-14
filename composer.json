@@ -9,10 +9,5 @@
             "email": "hello@lodi.id"
         }
     ],
-    "require": {},
-    "autoload": {
-        "psr-4": {
-            "lodi\\PHPLazadaSDK\\": "src/Lazop/"
-        }
-    }
+    "require": {}
 }
