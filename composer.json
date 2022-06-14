@@ -1,19 +1,18 @@
 {
   "name": "rocket-labs/sellercenter-sdk-php",
   "description": "SellerCenter SDK for PHP",
+  "type": "library",
   "license": "MIT",
-  "require": {
-    "php": "^7.3",
-    "guzzlehttp/guzzle": "^5.5",
-    "psr/http-message": "~1.0"
-  },
-  "require-dev": {
-    "phpunit/phpunit": "~4.8,<5.2"
-  },
-  "autoload": {
-    "psr-4": {
-      "": "src"
+    "authors": [
+        {
+            "name": "zalora",
+            "email": "hello@lodi.id"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "lodi\\PHPLazadaSDK\\": "src/Lazop/"
+        }
     }
-  },
-  "minimum-stability": "stable"
 }
